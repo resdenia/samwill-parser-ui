@@ -1,0 +1,280 @@
+body {
+  background-color: #333;
+  font-family: monospace;
+  font-size: 1.2em;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 300 !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px !important;
+  line-height: 27px !important;
+  color: #e9e9e9 !important;
+}
+.selected {
+  background-color: rgba(0, 110, 255, 0.295);
+}
+
+.modal-body {
+  max-height: 30em;
+  overflow: scroll;
+}
+
+a {
+  color: #999;
+}
+
+a:hover {
+  color: #fff;
+}
+
+textarea {
+  width: 100%;
+  display: block;
+}
+
+.boxsizingBorder {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+pre {
+  outline: 1px solid #ccc;
+  background-color: #333;
+  color: white;
+  height: 300px;
+  width: 100%;
+  font-size: 0.7em;
+  overflow: scroll;
+}
+
+.string {
+  color: lightgreen;
+}
+
+.number {
+  color: cyan;
+}
+
+.boolean {
+  color: violet;
+}
+
+.null {
+  color: magenta;
+}
+
+.key {
+  color: #f2f2f2;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+/* Header */
+.info-content p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #f8fafb;
+}
+.ml-auto.mx-4.right-menu a {
+  font-family: 'Mulish';
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffc15c;
+  text-decoration: none;
+}
+nav.navbar.dark-color {
+  background-color: #1c1e21;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+nav.navbar.dark-color {
+  background-color: #1c1e21;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.info-content {
+  padding: 20px 15px;
+}
+
+.info-content p {
+  margin-bottom: 0px;
+}
+
+.info-content p a {
+  color: #ffc15c;
+}
+.steps {
+  width: 100%;
+  padding: 20px 0px;
+  background: #3e4555;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.21);
+}
+.action-wrapper {
+  background: #353c4b;
+  box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.25);
+}
+.action-wrapper {
+  padding: 10px 0px;
+}
+
+.wrapper-editors button {
+  border-color: #f7c15c;
+  color: #f7c15c;
+  font-family: 'Mulish';
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.action-wrapper button.grey {
+  border-color: #292b34;
+  background: #3e4555;
+}
+span.separator-vertical {
+  border-left: 0.5px solid #586073;
+  padding: 10px;
+  margin-left: 10px;
+}
+.step-process {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+textarea#samplesBox {
+  padding-top: 40px;
+}
+.icon-wrapper {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background: #586073;
+}
+
+.text-wrapper p {
+  font-size: 15px;
+  line-height: 18px;
+  color: #f8fafb;
+  font-family: 'Montserrat';
+  margin-bottom: 0px;
+}
+
+.step-process div {
+  position: relative;
+  display: inline-block;
+}
+.text-wrapper span {
+  position: absolute;
+}
+
+.text-wrapper p {
+  position: relative;
+}
+
+.text-wrapper {
+  position: inherit;
+  display: table-row-group;
+  margin-top: -10px !important;
+}
+
+.text-wrapper {
+  top: -12px;
+}
+
+.text-wrapper span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #44d57e;
+  font-family: 'Mulish';
+}
+
+.arrow-wrapper {
+  margin: 8px 15px;
+}
+button.orange {
+  background: #ffc15c;
+  border-radius: 5px;
+  font-family: 'Mulish';
+  font-size: 14px;
+}
+
+button.orange:disabled:hover {
+  color: #3e4555 !important;
+}
+
+button:disabled:hover {
+  color: #ffc15c;
+}
+
+button:hover {
+  color: #ffc15c !important;
+  box-shadow: 0 4px 6px 0 rgba(1, 45, 65, 0.2);
+}
+label.orange {
+  background: #f7c15c;
+  position: absolute;
+  width: 25%;
+  font-size: 14px;
+  font-family: 'Mulish';
+  right: 40px;
+  top: 105px;
+}
+
+label {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(28, 30, 33, 0.7);
+}
+
+.modal-body select {
+  float: left;
+}
+
+.modal-body input {
+  float: left;
+}
+
+h5#exampleModalLabel {
+  font-family: 'Montserrat';
+  font-size: 23px;
+}
+.icon-wrapper svg {
+  display: none;
+  float: left;
+}
+.step-third p {
+  padding-right: 70px;
+}
+.step-process span {
+  display: none;
+}
+button.orange:hover {
+  color: #212529 !important;
+}
+/* Header */
+
+/* editor section */
+.wrapper-editors h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  color: #9fabbc;
+}
+/* editor section */

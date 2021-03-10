@@ -1,0 +1,3 @@
+188.207.100.44 - - [19/Oct/2020:15:45:47 +0000] \"GET /category/health HTTP/1.0\" 200 2631 \"http://bestcyclingreviews.com/top_online_shops\" \"Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS122159; GTB7.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; BRI/2)\"
+
+40.39.61.228 - - [19/Oct/2020:15:45:27 +0000] \"GET /search/?c=Health HTTP/1.0\" 200 4829 \"http://bleater.com\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:10.0.1) Gecko/20100101 Firefox/10.0.1\"
